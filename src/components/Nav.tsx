@@ -1,13 +1,12 @@
-import React from 'react';
+
 // import icons
 import { BiHomeAlt} from 'react-icons/bi';
 import { FaServicestack } from "react-icons/fa6";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 import { FiBook } from "react-icons/fi";
-import { IoMdContact } from "react-icons/io";
+import { BiPhoneCall } from "react-icons/bi";
 //import link
 import { Link } from 'react-scroll'
-
 const Nav = () => {
   window.onload = function() {
     window.setTimeout(
@@ -26,16 +25,11 @@ const Nav = () => {
   <nav className='fixed bottom-0 left-0 right-0 sm:top-0 sm:right-0 sm:bottom-auto sm:left-auto sm:flex flex-col items-center justify-center sm:h-full h-none z-50 sm:mr-5 sm:mb-0 mb-2 overflow-hidden'>
   <div className="bg-black/20 rounded-full w-full sm:h-96 h-[70px] backdrop-blur-2xl flex sm:flex-col flex-row justify-around items-center text-2xl text-white/50">
   
-    {/* <div className="w-full bg-black/20 h-[96px]
-      backdrop-blur-2xl rounded-full max-w-[460px]
-      mx-auto px-5 flex justify-between items-center text-2xl
-      text-white/50"> */}
       <Link 
-        to='home'
+        to='/'
         activeClass='active'
         smooth={true}
         spy={true}
-        offset={-200}
         className='cursor-pointer w-[60px] 
         h-[60px] flex items-center justify-center'>
       <BiHomeAlt />
@@ -52,7 +46,7 @@ const Nav = () => {
       </Link>
       
       <Link 
-        to='book'
+        to='/book-now'
         activeClass='active'
         smooth={true} 
         spy={true}
@@ -80,7 +74,7 @@ const Nav = () => {
         spy={true}
         className='cursor-pointer w-[60px] 
         h-[60px] flex items-center justify-center'>
-      <IoMdContact/>
+      <BiPhoneCall/>
       </Link>
     </div>
   </nav>

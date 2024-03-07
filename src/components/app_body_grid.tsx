@@ -1,16 +1,15 @@
-import  map  from "../assets/map.png"
-import journey from "../assets/Journey.jpeg"
+import journey from "../assets/journey.webp"
 import revolution from '../assets/revolution.webp'
 import design from "../assets/design.webp"
-import hotel from "../assets/hotel.jpg"
-import moose from "../assets/moose.jpg"
+import hotel from "../assets/hotel.webp"
+import nature from "../assets/nature.webp"
 import help from "../assets/help.webp"
-import save from "../assets/save.jpg"
+import save from "../assets/save.webp"
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 export function BentoGridDemo() {
   return (
     <section id="services">
-    <BentoGrid className="w-[75%] mx-auto">
+    <BentoGrid className=" h-full w-[75%] mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -25,11 +24,6 @@ export function BentoGridDemo() {
     </section>
   );
 }
-// const Skeleton = () => (
-//   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-//     <img src={map} alt="" className="h-full w-full justify-center items-center rounded-xl" />
-//   </div>
-// );
 const items = [
   {
     title: "The Road of Innovation",
@@ -62,7 +56,7 @@ const items = [
       "Experience the Canadian natural places",
     header: 
     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-    <img src={moose} alt="" className="h-full w-full object-cover justify-center items-center rounded-xl" />
+    <img src={nature} alt="" className="h-full w-full object-cover justify-center items-center rounded-xl" />
   </div>,
     
   },

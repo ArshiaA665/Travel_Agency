@@ -1,12 +1,15 @@
 import { motion } from "framer-motion"
 import { ImagesSlider } from '../constants/images-slider'
 import { Link } from "react-scroll";
+import plane from "../assets/plane.webp"
+import cruise from "../assets/cruise.webp"
+import train from "../assets/train.webp"
 const AppHome = () => {
     const images = [
-        "https://mrwallpaper.com/images/hd/hd-airplane-wings-uoypif5iyawe6p6i.jpg",
-        "https://wallpapers.com/images/hd/cruise-ship-luxurious-deck-ekar3wl9f5g26a8x.jpg",
-        "https://c4.wallpaperflare.com/wallpaper/222/403/661/red-high-speed-train-wallpaper-preview.jpg",
-      ];
+      plane,
+      cruise,
+      train,
+    ];
       return (
         <section id="home" className=" flex items-center justify-center pt-10">
         <ImagesSlider className="sm:h-[40rem] h-[20rem] sm:w-[80%] w-[75%] rounded-3xl opacity-75 justify-center overflow-hidden" images={images}>
@@ -29,7 +32,7 @@ const AppHome = () => {
             </motion.p>
              
             <Link 
-            to='book'
+            to='/book-now'
             activeClass='active'
             smooth={true}
             spy={true}
