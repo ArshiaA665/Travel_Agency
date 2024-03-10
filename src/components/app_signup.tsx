@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { Label } from "./ui/label2";
 import { Input } from "./ui/input2";
 import { cn } from "@/lib/utils";
-import {IconBrandGithub,IconBrandGoogle} from "@tabler/icons-react";
 
 interface State {
   fname: string;
@@ -51,7 +50,7 @@ export default class SignupFormDemo extends Component<{}, State> {
    render(){
 
   return (
-    <div className=" flex flex-col justify-center items-center mx-auto max-w-md w-screen h-screen  rounded-none md:rounded-2xl p-4 md:p-8 shadow-input dark:bg-black">
+    <div className=" flex flex-col justify-center items-center mx-auto max-w-md w-screen h-screen rounded-none md:rounded-2xl p-4 md:p-8 shadow-input dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-500 dark:text-neutral-200">
         Welcome to Travela
       </h2>
