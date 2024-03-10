@@ -13,7 +13,7 @@ import { BackgroundGradient } from "./background-gradient";
 export function BookNow () {
   
   return (
-    <div className=" w-screen h-screen flex flex-col items-center justify-center">
+    <div className=" w-screen h-screen flex flex-col items-center justify-center" id="book">
       <BackgroundGradient>
    <Card className="sm:w-[600px] xs:w-[350px] xss:w-[275px] z-20 bg-black/25">
       <CardHeader>

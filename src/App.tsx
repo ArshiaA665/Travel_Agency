@@ -9,21 +9,25 @@ import Nav from "@/components/Nav";
 import { BookNow } from './constants/BookNow';
 import { LampDemo } from './components/ui/lamp';
 import AppFooter from './components/app_footer';
+import  SignupFormDemo  from './components/app_signup';
 const App: React.FC = () => {
   return (
-    <Router>
+    
       <div className='relative'>
+        <Router>
         <Nav />
         <BackgroundBeams className='bg-neutral-950 absolute' />
         {/* Main content inside TracingBeam */}
         <TracingBeam>
           <Routes>
             <Route path="/" element={<MainContent />} />
-            <Route path="/book-now" element={<BookNow />} />
+            <Route path="/book-now" element={<BookNow />}/>
+            <Route path="/sign-up" element={<SignupFormDemo />}/>
           </Routes>
         </TracingBeam>
+        </Router>
       </div>
-    </Router>
+    
   );
 }
 
