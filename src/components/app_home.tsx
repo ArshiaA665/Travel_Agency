@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { ImagesSlider } from '../constants/images-slider'
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import plane from "../assets/plane.webp"
 import cruise from "../assets/cruise.webp"
 import train from "../assets/train.webp"
@@ -32,11 +32,7 @@ const AppHome = () => {
             </motion.p>
              
             <Link 
-            to='/book-now'
-            activeClass='active'
-            smooth={true}
-            spy={true}
-            offset={-200}>
+            to='/book-now'>
             <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
               <span>Book Now →</span>
               <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
