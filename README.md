@@ -69,13 +69,13 @@ just press Create Project:
 Now, we want to create a database:
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/34c86f69-5d11-46de-bd2b-8fd4f44ee154)
 
-Choose the free version. I chose AWS for my provider and name Cluster and press "Create":
+Choose the free version. I chose AWS for my provider and name Cluster and click "Create":
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/f49e6648-8e9c-47fd-9862-cd12de40240c)
 
-Now, you need the create user. save the username and password somewhere that you do not forget it is a sensative information and press "Create User":
+Now, you need the create user. save the username and password somewhere that you do not forget it is a sensative information and cick "Create User":
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/4e2e081c-8996-4876-9b8b-1eb921f5f99a)
 
-Choose My Local Environment and press "Finish and Close"
+Choose My Local Environment and click "Finish and Close"
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/51cd4097-30ca-457c-b457-3310830b01fa)
 
 Go to the Database dashboard.It might take a while to set up your cluster:
