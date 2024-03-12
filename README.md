@@ -17,10 +17,10 @@ Here is the link for the ShadCN: https://ui.shadcn.com/
 Recently this UI has been popping off and there so many cool ui components that  you can use to build your website with advanced UI. Haha, don't worry, you can modify the imported component. it doesn't have to be exactly the same. Yes you can change it!
 Here is the link for the Aceternity: https://ui.aceternity.com/
 
-# Tailwind:
+# TailwindCSS:
 
 Well this is not a UI component but simply, this is the simple version of CSS which means you dont have to create css files for ever component on framework(React, NextJS, etc). Ok let me show you how this looks!
-
+Here is the link for TailwindCSS: https://tailwindcss.com/
 on HTML(or JSX, TSX) file:
 
 <section className="section">
@@ -96,7 +96,7 @@ Now we go to the Terminal and inside our directory we run this command "nodemon 
 
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/9430351b-8c82-4bac-896d-d2fe12da34af)
 
-yayyy! it works now we go back to our terminal on the vscode and run "npm run dev":
+yayyy! it works! Now we go back to our terminal on the vscode and run "npm run dev":
 ![image](https://github.com/ArshiaA665/Travel_Agency/assets/62689369/bc4a3226-9719-4700-b7bd-6fbfedba361e)
 
 now go to the sign up page on your localhost and fill out the labels:
