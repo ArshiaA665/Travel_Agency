@@ -1,7 +1,6 @@
 # Travel_Agency
 
-Welcome to Travela! this is just a prototype it is not an actual website. The pupose of this project is the use of the modern UI components and librarie that i have used with some modifications.
-These libraries are mainly are:
+Welcome to Travela! this is just a prototype it is not an actual website. The pupose of this project is the use of the modern UI components and libraries that i have used with some modifications. Use Firefox/Developer Edition for this website.
 
 #ShadCN/UI
 #aceternity/UI
