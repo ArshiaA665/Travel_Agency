@@ -17,8 +17,6 @@ dotenv.config()
 const app = express();
 app.use(express.json());
 app.use(cors());
-// const mongoUrl = 
-//     "mongodb+srv://textfox96:Ar20012001@cluster0.95cybbs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const mongoUrl = process.env.MONGO_URL;
 
