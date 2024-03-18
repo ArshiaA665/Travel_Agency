@@ -10,11 +10,10 @@ import { BookNow } from './constants/BookNow';
 import { LampDemo } from './components/ui/lamp';
 import AppFooter from './components/app_footer';
 import  SignupFormDemo  from './components/app_signup';
+
 const App: React.FC = () => {
   return (
-    
       <div className='relative'>
-        
         <Nav />
         <BackgroundBeams className='bg-neutral-950 absolute' />
         {/* Main content inside TracingBeam */}
@@ -25,9 +24,7 @@ const App: React.FC = () => {
             <Route path="/sign-up" element={<SignupFormDemo />}/>
           </Routes>
         </TracingBeam>
-        
       </div>
-    
   );
 }
 
